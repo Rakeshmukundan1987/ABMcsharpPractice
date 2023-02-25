@@ -1,0 +1,29 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        //Console.WriteLine ("Hello Mono World");
+        fncstep1("204962");
+        fncstep1("R2C4B5");
+    }
+     public static void  fncstep1(string Postal){
+         int Code=Postal.Length;
+        // Console.WriteLine (Code);
+        
+         if (Code==5){
+            Console.WriteLine("US Postal code"+Postal);
+            }
+            else if(Code==6){
+                
+             Console.WriteLine("Postal Code from Canada " + " "+Postal.Substring(0,3) + " "+ Postal.Substring(3,3));
+            }
+            else
+            {
+                Console.WriteLine("ERROR");
+            }
+     }
+                
+
+}
