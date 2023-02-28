@@ -12,6 +12,7 @@ public class HelloWorld
         colors.Add("Blue");
         colors.Add("Green");
         colors.Add("Yellow");
+        colors.Add("Black");
         //color[2] = ("Black");
 	for(int i=0;i<colors.Count;i++)
 	{
