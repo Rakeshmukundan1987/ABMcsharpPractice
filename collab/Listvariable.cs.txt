@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        //Console.WriteLine ("Hello Mono World");
+        //List<string> color = new List<string>(4);
+	var colors=new List<string>();
+        colors.Add("Red");
+        colors.Add("Blue");
+        colors.Add("Green");
+        colors.Add("Yellow");
+        colors.Add("Black");
+	colors.Add("Pink");
+        
+	for(int i=0;i<colors.Count;i++)
+	{
+		if (colors[i]=="Red")
+			{ 
+			    colors[i]="Black";
+			}
+	}
+        //foreach (string a in color)
+	foreach (var color in colors)
+        
+        Console.WriteLine(color);
+        
+    }
+}

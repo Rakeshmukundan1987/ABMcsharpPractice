@@ -1,0 +1,13 @@
+using System;
+using System.Linq;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        //Console.WriteLine ("Hello Mono World");
+        int[] myNum = {5, 9, 199, 90,10,200};
+         Console.WriteLine("Minimum number is " + myNum.Min());
+        Console.WriteLine("Maximum number is " + myNum.Max());
+    }
+}
